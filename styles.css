@@ -1,0 +1,120 @@
+/*importing font from google*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;1,300&display=swap" rel="stylesheet');
+
+/*intialising all*/
+* {
+    margin: 0;
+    font-family: "Karla";
+    color: rgb(29, 27, 27);
+}
+
+/*style for class navbar*/
+.navbar{
+    padding: 20 px;
+    display: flex;
+    align-items: center;
+    max-width: 730px;
+    margin: 0 auto;
+    border-bottom: 1px dashed rgb(72, 112, 11);
+    background-color: rgb(109, 190, 163);
+}
+
+/*style for class navbar and nav-links*/
+.navbar .nav-links
+{
+    margin-left: auto;
+}
+
+/*style for class navbar a*/
+.navbar a{
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+/*style for class navbar a with hover*/
+.navbar a:hover{
+    color: rgb(72, 112, 11);
+}
+
+/*style for class container*/
+.container{
+    max-width: 700px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: rgb(243, 237, 237);
+    text-align: center;
+}
+
+/*style for class container h2*/
+.container h2{
+    border-bottom: 3px solid rgb(72, 112, 11);
+    margin-bottom: 20px;
+}
+
+/*style for class card*/
+.card{
+    text-align: center;
+}
+
+/*style for class card-content*/
+.card-content{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+/*style for class card-content p*/
+.card-content p{
+    margin-top: 10px;
+}
+
+/*style for class card-title*/
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*style for class container h3*/
+.container h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*style for class join*/
+.join{
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+/*style for class join label*/
+.join label{
+    text-align: center;
+    display: block;
+}
+
+/*style for class join input*/
+.join input{
+    align-items: center;
+    width: 100%;
+    padding: 5px 20px;
+    margin: 15px 0;
+    display: block;
+    box-sizing: border-box;
+}
+
+/*style for class join button*/
+.join button{
+    background-color: rgb(109, 190, 163);
+    border: 0;
+    width: 80px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+/*style for class join button a with hover*/
+.join button:hover{
+    color: rgb(72, 112, 11);
+}
